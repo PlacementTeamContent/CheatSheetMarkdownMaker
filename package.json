@@ -1,0 +1,19 @@
+{
+  "name": "Markdown cheatsheet creation",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Installation of nodeJs software from [node](https://nodejs.org/en/download)   Open this directory in terminal and run `npm install` or `npm i`.   After the installation of dependencies, run `npm run setup`.",
+  "main": "generate_final.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.11",
+    "dotenv": "^16.4.1",
+    "fs": "^0.0.1-security",
+    "remark": "^15.0.1",
+    "uuid": "^9.0.1"
+  }
+}
